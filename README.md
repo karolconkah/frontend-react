@@ -1,16 +1,18 @@
-Frontend React - Sistema de Gestão
+Frontend React - Integração com API REST
 
 Sobre o projeto
 
-Aplicação frontend desenvolvida em React para consumo de uma API REST construída em Node.js e TypeScript.
+Aplicação frontend desenvolvida em React utilizando Create React App.
 
-O sistema permite autenticação de usuários e gerenciamento de registros por meio de uma interface construída com Material UI.
+O projeto foi utilizado para integração com uma API REST desenvolvida em Node.js e TypeScript, permitindo autenticação de usuários e gerenciamento de registros.
 
-Projeto desenvolvido para prática de integração frontend + backend, organização de componentes e consumo de API com autenticação JWT.
+Baseado em estudos de curso, porém integrado e versionado de forma independente.
 
 Tecnologias utilizadas
 
 React
+
+Create React App
 
 Material UI
 
@@ -18,13 +20,15 @@ Axios
 
 React Router
 
-Yarn
+npm
 
 Funcionalidades
 
-Tela de login com autenticação
+Tela de login
 
-Armazenamento e uso de token JWT
+Autenticação com token JWT
+
+Consumo de API REST
 
 Listagem de registros
 
@@ -36,11 +40,9 @@ Exclusão de registros
 
 Tratamento de erros de requisição
 
-Interface responsiva
-
 Integração com Backend
 
-Esta aplicação consome a API disponível em:
+Esta aplicação consome a API disponível no repositório:
 
 karolconkah/api-rest-typescript
 
@@ -51,16 +53,14 @@ Pré-requisitos
 
 Node.js instalado
 
-Yarn instalado
-
 1. Clone o repositório
 git clone https://github.com/karolconkah/frontend-react.git
 2. Acesse a pasta do projeto
 cd frontend-react
 3. Instale as dependências
-yarn install
+npm install
 4. Inicie a aplicação
-yarn start
+npm start
 
 Aplicação disponível em:
 
@@ -68,7 +68,7 @@ http://localhost:3000
 
 Objetivo
 
-Aplicar conceitos de integração com API REST, componentização em React e organização de código em um projeto fullstack.
+Praticar integração entre frontend e backend, organização de componentes em React e consumo de APIs com autenticação.
 
 Autora
 
